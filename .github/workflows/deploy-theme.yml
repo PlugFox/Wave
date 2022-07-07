@@ -1,4 +1,4 @@
-name: Deploy Theme
+name: Deploy Ghost Theme
 on:
   workflow_dispatch:
   push:
@@ -6,7 +6,9 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    name: 'Deploy Ghost Theme'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v3
       - name: Deploy Ghost Theme

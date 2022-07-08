@@ -1,15 +1,10 @@
-# Wave
+# Poltergeist
 
 A theme dedicated to podcasters and bloggers. Embrace your creativity with ease. Completely free and fully responsive, released under the MIT license.
 
-**Demo: https://wave.ghost.io**
+**Demo: https://plugfox.dev**
 
 &nbsp;
-
-# Instructions
-
-1. [Download this theme](https://github.com/TryGhost/Wave/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
 
 # Adding Episodes
 
@@ -18,7 +13,7 @@ A theme dedicated to podcasters and bloggers. Embrace your creativity with ease.
 
 # Creating a Separate Blog Page
 
-1. Upload the routes file (routes.yaml in the theme folder) in `Beta features > Routes`.
+1. Upload the routes file (`routes.yaml` in the theme folder) in `Beta features > Routes`.
 2. Add `Blog` tag to your posts and the blog page can be accessed in `example.com/blog`.
 
 # Development

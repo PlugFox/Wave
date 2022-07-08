@@ -1,24 +1,23 @@
 @font-face {
   font-family: 'Poltergeist';
   src:
-    url('fonts/Poltergeist.ttf?eijl9v') format('truetype'),
-    url('fonts/Poltergeist.woff?eijl9v') format('woff'),
-    url('fonts/Poltergeist.svg?eijl9v#Poltergeist') format('svg');
+    url('../fonts/Poltergeist.ttf?eijl9v') format('truetype'),
+    url('../fonts/Poltergeist.woff?eijl9v') format('woff'),
+    url('../fonts/Poltergeist.svg?eijl9v#Poltergeist') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-.icon {
+.icon::before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Poltergeist' !important;
   speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
+  font: normal normal normal 24px/1 Wave, sans-serif;
+  font-size: inherit;
   text-transform: none;
   line-height: 1;
-  
+
   /* Enable Ligatures ================ */
   letter-spacing: 0;
   -webkit-font-feature-settings: "liga";
@@ -34,110 +33,110 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github:before {
+.icon-github::before {
   content: "\e900";
 }
-.icon-menu-up:before {
+.icon-menu-up::before {
   content: "\e901";
 }
-.icon-star:before {
+.icon-star::before {
   content: "\e902";
 }
-.icon-pause:before {
+.icon-pause::before {
   content: "\e903";
 }
-.icon-rewind-10:before {
+.icon-rewind-10::before {
   content: "\e904";
 }
-.icon-fast-forward-30:before {
+.icon-fast-forward-30::before {
   content: "\e905";
 }
-.icon-download:before {
+.icon-download::before {
   content: "\e906";
 }
-.icon-menu:before {
+.icon-menu::before {
   content: "\e907";
 }
-.icon-google:before {
+.icon-google::before {
   content: "\e914";
 }
-.icon-web:before {
+.icon-web::before {
   content: "\e91c";
 }
-.icon-chevron-left:before {
+.icon-chevron-left::before {
   content: "\e929";
 }
-.icon-chevron-right:before {
+.icon-chevron-right::before {
   content: "\e92a";
 }
-.icon-arrow-left:before {
+.icon-arrow-left::before {
   content: "\e92b";
 }
-.icon-arrow-right:before {
+.icon-arrow-right::before {
   content: "\e92c";
 }
-.icon-map-marker:before {
+.icon-map-marker::before {
   content: "\e92d";
 }
-.icon-menu-down:before {
+.icon-menu-down::before {
   content: "\e92e";
 }
-.icon-window-close:before {
+.icon-window-close::before {
   content: "\e92f";
 }
-.icon-white-balance-sunny:before {
+.icon-white-balance-sunny::before {
   content: "\e930";
 }
-.icon-brightness-2:before {
+.icon-brightness-2::before {
   content: "\e931";
 }
-.icon-play:before {
+.icon-play::before {
   content: "\e932";
 }
-.icon-bookmark:before {
+.icon-bookmark::before {
   content: "\e933";
 }
-.icon-apple:before {
+.icon-apple::before {
   content: "\e934";
 }
-.icon-overcast:before {
+.icon-overcast::before {
   content: "\e935";
 }
-.icon-facebook:before {
+.icon-facebook::before {
   content: "\e936";
 }
-.icon-spotify:before {
+.icon-spotify::before {
   content: "\e937";
 }
-.icon-stitcher:before {
+.icon-stitcher::before {
   content: "\e938";
 }
-.icon-rss:before {
+.icon-rss::before {
   content: "\e939";
 }
-.icon-youtube:before {
+.icon-youtube::before {
   content: "\e908";
   color: #f00;
 }
-.icon-discord:before {
+.icon-discord::before {
   content: "\e909";
   color: #7289da;
 }
-.icon-telegram:before {
+.icon-telegram::before {
   content: "\e90a";
   color: #2ca5e0;
 }
-.icon-twitter:before {
+.icon-twitter::before {
   content: "\e90b";
   color: #1da1f2;
 }
-.icon-linkedin:before {
+.icon-linkedin::before {
   content: "\e90c";
   color: #0077b5;
 }
-.icon-google2:before {
+.icon-google2::before {
   content: "\ea89";
 }
-.icon-instagram:before {
+.icon-instagram::before {
   content: "\ea92";
 }

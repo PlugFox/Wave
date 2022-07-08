@@ -57,7 +57,7 @@
 .icon-menu::before {
   content: "\e907";
 }
-.icon-google::before {
+.icon-google-podcast::before {
   content: "\e914";
 }
 .icon-web::before {
@@ -134,7 +134,7 @@
   content: "\e90c";
   color: #0077b5;
 }
-.icon-google2::before {
+.icon-google::before {
   content: "\ea89";
 }
 .icon-instagram::before {

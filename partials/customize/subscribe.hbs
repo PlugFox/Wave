@@ -1,37 +1,37 @@
 <div class="subscribe{{#if is_popup}} popup{{/if}}">
-    {{#if @custom.apple_podcasts_link}}
-        <a href="{{@custom.apple_podcasts_link}}" class="subscribe-link" target="_blank"
+    {{#if @custom.telegram_link}}
+        <a href="{{@custom.telegram_link}}" class="subscribe-link" target="_blank"
             rel="noopener noreferrer">
-            <i class="icon icon-apple"></i>
-            <span class="subscribe-text">Apple</span>
+            <i class="icon icon-telegram"></i>
+            <span class="subscribe-text">Telegram</span>
         </a>
     {{/if}}
-    {{#if @custom.google_podcasts_link}}
-        <a href="{{@custom.google_podcasts_link}}" class="subscribe-link"
+    {{#if @custom.google_devlopers_link}}
+        <a href="{{@custom.google_devlopers_link}}" class="subscribe-link"
             target="_blank" rel="noopener noreferrer">
             <i class="icon icon-google"></i>
-            <span class="subscribe-text">Google</span>
+            <span class="subscribe-text">Google Developers</span>
         </a>
     {{/if}}
-    {{#if @custom.spotify_link}}
-        <a href="{{@custom.spotify_link}}" class="subscribe-link" target="_blank"
+    {{#if @custom.linkedin_link}}
+        <a href="{{@custom.linkedin_link}}" class="subscribe-link" target="_blank"
             rel="noopener noreferrer">
-            <i class="icon icon-spotify"></i>
-            <span class="subscribe-text">Spotify</span>
+            <i class="icon icon-linkedin"></i>
+            <span class="subscribe-text">LinkedIn</span>
         </a>
     {{/if}}
-    {{#if @custom.overcast_link}}
-        <a href="{{@custom.overcast_link}}" class="subscribe-link" target="_blank"
+    {{#if @custom.github_link}}
+        <a href="{{@custom.github_link}}" class="subscribe-link" target="_blank"
             rel="noopener noreferrer">
-            <i class="icon icon-overcast"></i>
-            <span class="subscribe-text">Overcast</span>
+            <i class="icon icon-github"></i>
+            <span class="subscribe-text">GitHub</span>
         </a>
     {{/if}}
-    {{#if @custom.stitcher_link}}
-        <a href="{{@custom.stitcher_link}}" class="subscribe-link" target="_blank"
+    {{#if @custom.youtube_link}}
+        <a href="{{@custom.youtube_link}}" class="subscribe-link" target="_blank"
             rel="noopener noreferrer">
-            <i class="icon icon-stitcher"></i>
-            <span class="subscribe-text">Stitcher</span>
+            <i class="icon icon-youtube"></i>
+            <span class="subscribe-text">YouTube</span>
         </a>
     {{/if}}
     <a href="{{#if @custom.rss_link}}{{@custom.rss_link}}{{else}}{{@site.url}}/rss{{/if}}" class="subscribe-link" target="_blank"

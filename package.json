@@ -45,25 +45,25 @@
                 "options": ["Modern sans-serif", "Elegant serif"],
                 "default": "Modern sans-serif"
             },
-            "apple_podcasts_link": {
+            "telegram_link": {
                 "type": "text",
-                "default": "https://podcasts.apple.com/"
+                "default": "https://t.me/PlugFox"
             },
-            "google_podcasts_link": {
+            "google_devlopers_link": {
                 "type": "text",
-                "default": "https://podcasts.google.com/"
+                "default": "https://g.dev/PlugFox"
             },
-            "spotify_link": {
+            "linkedin_link": {
                 "type": "text",
-                "default": "https://open.spotify.com/"
+                "default": "https://linkedin.com/in/PlugFox"
             },
-            "overcast_link": {
+            "github_link": {
                 "type": "text",
-                "default": "https://overcast.fm/"
+                "default": "https://github.com/PlugFox"
             },
-            "stitcher_link": {
+            "youtube_link": {
                 "type": "text",
-                "default": "https://www.stitcher.com/"
+                "default": "https://youtube.com/c/DARTSIDE"
             },
             "rss_link": {
                 "type": "text"

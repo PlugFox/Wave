@@ -16,6 +16,10 @@ A theme dedicated to podcasters and bloggers. Embrace your creativity with ease.
 1. Upload the routes file (`routes.yaml` in the theme folder) in `Beta features > Routes`.
 2. Add `Blog` tag to your posts and the blog page can be accessed in `example.com/blog`.
 
+# Creating and updating fonts
+
+[IcoMoon](https://icomoon.io/app/#/select)
+
 # Development
 
 Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:

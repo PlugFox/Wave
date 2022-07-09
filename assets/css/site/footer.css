@@ -6,8 +6,14 @@
 
 .site-footer .subscribe {
     justify-content: center;
+    /*     
     padding-bottom: 15px;
     border-bottom: 1px solid var(--mid-gray-color);
+    */
+
+    border-top: 1px solid var(--mid-gray-color);
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .site-footer .subscribe-link {

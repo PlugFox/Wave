@@ -3,6 +3,7 @@ routes:
     template: rss
     content_type: text/xml
   /api/:
+    template: api
     content_type: json
 
 collections:

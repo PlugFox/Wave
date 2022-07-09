@@ -4,10 +4,10 @@
     right: 0;
     z-index: 90;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-top: 15px;
     padding: 10px 20px;
-    width: 150px;
+    width: 170px;
     background: var(--white-color);
     border-radius: 3px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);

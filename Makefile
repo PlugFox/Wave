@@ -1,6 +1,8 @@
+setup:
+	@yarn
 
 build:
-	@yarn
+	@yarn build
 
 watch:
 	@yarn dev

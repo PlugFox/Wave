@@ -1,18 +1,4 @@
 <div class="subscribe{{#if is_popup}} popup{{/if}}">
-    {{#if @custom.telegram_link}}
-        <a href="{{@custom.telegram_link}}" class="subscribe-link" target="_blank"
-            rel="noopener noreferrer">
-            <i class="icon icon-telegram"></i>
-            <span class="subscribe-text">Telegram</span>
-        </a>
-    {{/if}}
-    {{#if @custom.google_devlopers_link}}
-        <a href="{{@custom.google_devlopers_link}}" class="subscribe-link"
-            target="_blank" rel="noopener noreferrer">
-            <i class="icon icon-google"></i>
-            <span class="subscribe-text">Google Developers</span>
-        </a>
-    {{/if}}
     {{#if @custom.linkedin_link}}
         <a href="{{@custom.linkedin_link}}" class="subscribe-link" target="_blank"
             rel="noopener noreferrer">
@@ -27,11 +13,25 @@
             <span class="subscribe-text">GitHub</span>
         </a>
     {{/if}}
+    {{#if @custom.telegram_link}}
+        <a href="{{@custom.telegram_link}}" class="subscribe-link" target="_blank"
+            rel="noopener noreferrer">
+            <i class="icon icon-telegram"></i>
+            <span class="subscribe-text">Telegram</span>
+        </a>
+    {{/if}}
     {{#if @custom.youtube_link}}
         <a href="{{@custom.youtube_link}}" class="subscribe-link" target="_blank"
             rel="noopener noreferrer">
             <i class="icon icon-youtube"></i>
             <span class="subscribe-text">YouTube</span>
+        </a>
+    {{/if}}
+    {{#if @custom.google_devlopers_link}}
+        <a href="{{@custom.google_devlopers_link}}" class="subscribe-link"
+            target="_blank" rel="noopener noreferrer">
+            <i class="icon icon-google"></i>
+            <span class="subscribe-text">Google Developers</span>
         </a>
     {{/if}}
     <a href="{{#if @custom.rss_link}}{{@custom.rss_link}}{{else}}{{@site.url}}/rss{{/if}}" class="subscribe-link" target="_blank"

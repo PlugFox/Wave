@@ -2,6 +2,8 @@ routes:
   /rss/:
     template: rss
     content_type: text/xml
+  /api/:
+    content_type: json
 
 collections:
   /:

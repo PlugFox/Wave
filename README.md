@@ -27,9 +27,18 @@ Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need 
 ```bash
 # Install
 yarn
+#or
+make setup
+
+# Run build
+$ yarn build
+# or
+$ make build
 
 # Run build & watch for changes
 $ yarn dev
+# or
+$ make watch
 ```
 
 Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.

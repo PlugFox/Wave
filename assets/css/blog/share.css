@@ -3,6 +3,7 @@
     overflow: hidden;
     margin-top: 30px;
     border-radius: 3px;
+    justify-content: center;
 }
 
 .share-item {
@@ -40,6 +41,8 @@ ul.share-buttons{
 
 ul.share-buttons li{
     display: inline;
+    float: left;
+    padding: 4px;
 }
 
 ul.share-buttons .sr-only{

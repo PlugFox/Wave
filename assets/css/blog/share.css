@@ -1,7 +1,6 @@
 .share {
     display: flex;
     overflow: hidden;
-    margin-top: 32px;
     border-radius: 3px;
     justify-content: center;
 }

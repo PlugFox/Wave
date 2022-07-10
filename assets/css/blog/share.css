@@ -57,3 +57,7 @@ ul.share-buttons .sr-only{
     width: 1px;
     overflow: hidden;
 }
+
+.share-padding {
+    padding: 32px 0 8px 0;
+}

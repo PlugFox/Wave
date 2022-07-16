@@ -54,6 +54,10 @@
     text-transform: uppercase;
 }
 
+.post-meta-reading {
+    margin-left: 5px;
+}
+
 .post-meta-tags {
     margin-left: 5px;
 }

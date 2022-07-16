@@ -17,6 +17,7 @@
     top: 125%;
     left: 50%;
     margin-left: -60px;
+    font-size: 14px;
 
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
@@ -26,4 +27,5 @@
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+    font-size: 14px;
 }

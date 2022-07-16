@@ -5,9 +5,14 @@
         </a>
     </div>
     <div class="header-right">
-        <button class="search gh-search" data-ghost-search>
-            <i class="icon icon-search"></i>
-        </button>
+        <a
+            class="search menu-item"
+            href="#/search"
+            style="margin-right: 18px;"
+            data-ghost-search>
+                <span>Search </span>
+                <i class="icon icon-search"></i>
+        </a>
 
         {{#if @site.navigation}}
             <nav class="main-nav hidden-xs hidden-sm hidden-md">
@@ -22,7 +27,7 @@
             {{> customize/subscribe-popup is_popup=true}}
         </div>
         --}}
-        
+
         {{#if @site.navigation}}
             <div class="header-menu hidden-lg hidden-xl">
                 <button

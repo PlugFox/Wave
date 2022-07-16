@@ -5,11 +5,16 @@
         </a>
     </div>
     <div class="header-right">
+        <button class="search gh-search" data-ghost-search>
+            <i class="icon icon-search"></i>
+        </button>
+
         {{#if @site.navigation}}
             <nav class="main-nav hidden-xs hidden-sm hidden-md">
                 {{navigation}}
             </nav>
         {{/if}}
+
         {{!--
         <div class="header-subscribe">
             <button
@@ -17,7 +22,7 @@
             {{> customize/subscribe-popup is_popup=true}}
         </div>
         --}}
-        <button class="search gh-search" data-ghost-search><i class="icon-search"></i></button>
+        
         {{#if @site.navigation}}
             <div class="header-menu hidden-lg hidden-xl">
                 <button

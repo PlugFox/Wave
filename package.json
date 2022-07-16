@@ -1,9 +1,9 @@
 {
     "name": "poltergeist",
     "description": "A Ghost theme",
-    "version": "2.2.3",
+    "version": "2.3.0",
     "engines": {
-        "ghost": ">=5.0.0"
+        "ghost": ">=5.3.0"
     },
     "license": "MIT",
         "author": {

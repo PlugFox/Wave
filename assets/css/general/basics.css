@@ -1,3 +1,7 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 :root {
     --brand-color: var(--ghost-accent-color, #fc7e0f);
     --primary-text-color: #5a656b;

@@ -28,7 +28,7 @@
 
     .post-feed .post-media {
         margin-right: 20px;
-        width: 80px;
+        min-width: 80px;
     }
 
     .post-feed .post-media .button-play {

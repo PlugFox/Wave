@@ -1903,6 +1903,11 @@
         padding: 32px 0 8px;
     }
 
+    /* .lazyload,
+    .lazyloading {
+        opacity: 0;
+    } */
+
     .lazyloaded {
         opacity: 1;
         transition: opacity 0.5s var(--animation-base);

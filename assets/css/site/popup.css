@@ -10,7 +10,7 @@
     width: 180px;
     background: var(--white-color);
     border-radius: 3px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
     opacity: 0;
     transition-timing-function: var(--animation-base);
     transition-duration: 0.2s;

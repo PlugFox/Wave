@@ -17,8 +17,8 @@
 }
 
 blockquote.kg-blockquote-alt {
-    font-style: normal;
     color: var(--secondary-text-color);
+    font-style: normal;
 }
 
 .kg-card.kg-audio-card .kg-audio-title {

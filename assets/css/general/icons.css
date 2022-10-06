@@ -1,177 +1,178 @@
 /* https://icomoon.io/app */
 
 @font-face {
-  font-family: 'Poltergeist';
-  src:
-    url('../fonts/Poltergeist.ttf?eijl9v') format('truetype'),
-    url('../fonts/Poltergeist.woff?eijl9v') format('woff'),
-    url('../fonts/Poltergeist.svg?eijl9v#Poltergeist') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: "Poltergeist";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url("../fonts/Poltergeist.ttf?eijl9v") format("truetype"),
+        url("../fonts/Poltergeist.woff?eijl9v") format("woff"),
+        url("../fonts/Poltergeist.svg?eijl9v#Poltergeist") format("svg");
+    font-display: block;
 }
 
 .icon::before {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Poltergeist' !important;
-  /* speak: never; */
-  font: normal normal normal 24px/1 Wave, sans-serif;
-  font-size: inherit;
-  text-transform: none;
-  line-height: 1;
+    /* speak: never; */
+    font: normal normal normal 24px/1 Wave, sans-serif;
 
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "Poltergeist" !important;
+    font-size: inherit;
+    line-height: 1;
+    font-feature-settings: "liga";
+    font-feature-settings: "liga=1";
+    font-feature-settings: "liga";
+    font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    text-transform: none;
+    font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-search:before {
-  content: "\e90d";
+.icon-search::before {
+    content: "\e90d";
 }
 
-.icon-menu-up:before {
-  content: "\e901";
+.icon-menu-up::before {
+    content: "\e901";
 }
 
-.icon-star:before {
-  content: "\e902";
+.icon-star::before {
+    content: "\e902";
 }
 
-.icon-pause:before {
-  content: "\e903";
+.icon-pause::before {
+    content: "\e903";
 }
 
-.icon-rewind-10:before {
-  content: "\e904";
+.icon-rewind-10::before {
+    content: "\e904";
 }
 
-.icon-fast-forward-30:before {
-  content: "\e905";
+.icon-fast-forward-30::before {
+    content: "\e905";
 }
 
-.icon-download:before {
-  content: "\e906";
+.icon-download::before {
+    content: "\e906";
 }
 
-.icon-menu:before {
-  content: "\e907";
+.icon-menu::before {
+    content: "\e907";
 }
 
-.icon-web:before {
-  content: "\e91c";
+.icon-web::before {
+    content: "\e91c";
 }
 
-.icon-chevron-left:before {
-  content: "\e929";
+.icon-chevron-left::before {
+    content: "\e929";
 }
 
-.icon-chevron-right:before {
-  content: "\e92a";
+.icon-chevron-right::before {
+    content: "\e92a";
 }
 
-.icon-arrow-left:before {
-  content: "\e92b";
+.icon-arrow-left::before {
+    content: "\e92b";
 }
 
-.icon-arrow-right:before {
-  content: "\e92c";
+.icon-arrow-right::before {
+    content: "\e92c";
 }
 
-.icon-map-marker:before {
-  content: "\e92d";
+.icon-map-marker::before {
+    content: "\e92d";
 }
 
-.icon-menu-down:before {
-  content: "\e92e";
+.icon-menu-down::before {
+    content: "\e92e";
 }
 
-.icon-window-close:before {
-  content: "\e92f";
+.icon-window-close::before {
+    content: "\e92f";
 }
 
-.icon-white-balance-sunny:before {
-  content: "\e930";
+.icon-white-balance-sunny::before {
+    content: "\e930";
 }
 
-.icon-brightness:before {
-  content: "\e931";
+.icon-brightness::before {
+    content: "\e931";
 }
 
-.icon-play:before {
-  content: "\e932";
+.icon-play::before {
+    content: "\e932";
 }
 
-.icon-bookmark:before {
-  content: "\e933";
+.icon-bookmark::before {
+    content: "\e933";
 }
 
-.icon-apple:before {
-  content: "\e934";
+.icon-apple::before {
+    content: "\e934";
 }
 
-.icon-overcast:before {
-  content: "\e935";
+.icon-overcast::before {
+    content: "\e935";
 }
 
-.icon-facebook:before {
-  content: "\e936";
+.icon-facebook::before {
+    content: "\e936";
 }
 
-.icon-spotify:before {
-  content: "\e937";
+.icon-spotify::before {
+    content: "\e937";
 }
 
-.icon-stitcher:before {
-  content: "\e938";
+.icon-stitcher::before {
+    content: "\e938";
 }
 
-.icon-rss:before {
-  content: "\e939";
+.icon-rss::before {
+    content: "\e939";
 }
 
-.icon-youtube:before {
-  content: "\e908";
-  color: #f00;
+.icon-youtube::before {
+    content: "\e908";
+    color: #f00;
 }
 
-.icon-discord:before {
-  content: "\e909";
-  color: #7289da;
+.icon-discord::before {
+    content: "\e909";
+    color: #7289da;
 }
 
-.icon-telegram:before {
-  content: "\e90a";
-  color: #2ca5e0;
+.icon-telegram::before {
+    content: "\e90a";
+    color: #2ca5e0;
 }
 
-.icon-twitter:before {
-  content: "\e90b";
-  color: #1da1f2;
+.icon-twitter::before {
+    content: "\e90b";
+    color: #1da1f2;
 }
 
-.icon-linkedin:before {
-  content: "\e90c";
-  color: #0077b5;
+.icon-linkedin::before {
+    content: "\e90c";
+    color: #0077b5;
 }
 
-.icon-google:before {
-  content: "\ea89";
+.icon-google::before {
+    content: "\ea89";
 }
 
-.icon-instagram:before {
-  content: "\ea92";
+.icon-instagram::before {
+    content: "\ea92";
 }
 
-.icon-github:before {
-  content: "\e900";
+.icon-github::before {
+    content: "\e900";
 }

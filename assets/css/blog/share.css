@@ -1,8 +1,8 @@
 .share {
     display: flex;
+    justify-content: center;
     overflow: hidden;
     border-radius: 3px;
-    justify-content: center;
 }
 
 .share-item {
@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 24px;
     width: 24px;
+    height: 24px;
     color: var(--white-color);
     font-size: 12px;
     font-weight: 600;
@@ -35,28 +35,28 @@
     background-color: #1da1f2;
 }
 
-ul.share-buttons{
-    list-style: none;
+ul.share-buttons {
     padding: 0;
+    list-style: none;
 }
 
-ul.share-buttons li{
+ul.share-buttons li {
     display: inline;
     float: left;
     padding: 4px;
 }
 
-ul.share-buttons .sr-only{
+ul.share-buttons .sr-only {
     position: absolute;
+    overflow: hidden;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
     padding: 0;
-    border: 0;
-    height: 1px;
     width: 1px;
-    overflow: hidden;
+    height: 1px;
+    border: 0;
 }
 
 .share-padding {
-    padding: 32px 0 8px 0;
+    padding: 32px 0 8px;
 }

@@ -1,23 +1,24 @@
 .tooltip {
     position: relative;
     display: inline-block;
+
     /* border-bottom: 1px dotted black; */
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 175px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
     position: absolute;
-    z-index: 1;
     top: 125%;
     left: 50%;
+    z-index: 1;
     margin-left: -60px;
+    padding: 5px 0;
+    width: 175px;
+    color: #fff;
     font-size: 14px;
+    text-align: center;
+    background-color: black;
+    border-radius: 6px;
 
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
@@ -26,6 +27,6 @@
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
-    opacity: 1;
     font-size: 14px;
+    opacity: 1;
 }

@@ -78,4 +78,17 @@
     .u-placeholder {
         background-color: #263238;
     }
+
+    .author {
+        background-color: #263238;
+        border-radius: 16px;
+    }
+
+    #isso-thread input {
+        background: #2d2d2d;
+    }
+    
+    #isso-thread .isso-textarea {
+        background: #2d2d2d;
+    }
 }

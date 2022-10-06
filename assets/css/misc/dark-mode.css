@@ -44,7 +44,7 @@
     html {
         filter: contrast(100%) brightness(100%) saturate(100%);
     }
-    
+
     :root {
         --brand-color: var(--ghost-accent-color, hsl(28deg 60% 75% / 100%));
         --primary-text-color: hsl(201deg 9% 75% / 100%);
@@ -73,5 +73,9 @@
 
     .button-secondary {
         background-color: var(--dark-gray-color-night-eye);
+    }
+
+    .u-placeholder {
+        background-color: #263238;
     }
 }

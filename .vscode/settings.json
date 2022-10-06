@@ -1,3 +1,17 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+    // Remove files from search
+    "search.exclude": {
+        "build": true,
+        "assets/built": true,
+        "dist": true,
+        "node_modules": true
+    },
+
+    // Remove from file watching
+    "files.watcherExclude": {
+        "build": true,
+        "assets/built": true,
+        "dist": true,
+        "node_modules": true
+    }
 }

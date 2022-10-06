@@ -38,10 +38,15 @@
     opacity: 0.4;
 }
 
+.post-image {
+    border-radius: 16px;
+}
+
 .u-placeholder {
     position: relative;
     z-index: 10;
     background-color: var(--light-gray-color);
+    border-radius: 16px;
 }
 
 .u-placeholder::before {

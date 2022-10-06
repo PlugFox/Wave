@@ -1,6 +1,6 @@
 {
-    "name": "Fox",
-    "short_name": "Fox",
+    "name": "",
+    "short_name": "",
     "icons": [
         {
             "src": "/assets/icons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#eceff1",
-    "background_color": "#eceff1",
+    "theme_color": "#cfd8dc",
+    "background_color": "#cfd8dc",
     "display": "standalone"
 }

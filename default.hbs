@@ -2,14 +2,39 @@
 <html lang="{{@site.locale}}">
 
 <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     {{^is "blog"}}
         <title>{{meta_title}}</title>
+        <meta name="description" content="Talks about #flutter and #dart">
+
+        <meta property="og:site_name" content="Plague Fox" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Plague Fox: engineer by day, fox by night" />
+        <meta property="og:description" content="Dart & Flutter Engineer, Team Lead, Full-Stack, Open Source contributor, and T-shaped person. Talks about #flutter & #dart." />
+        <meta property="og:url" content="https://plugfox.dev/" />
+        <meta property="og:image" content="https://plugfox.dev/assets/icons/twitter-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Plague Fox: engineer by day, fox by night" />
+        <meta name="twitter:description" content="Dart & Flutter Engineer, Team Lead, Full-Stack, Open Source contributor, and T-shaped person. Talks about #flutter & #dart." />
+        <meta name="twitter:url" content="https://plugfox.dev/" />
+        <meta name="twitter:image" content="https://plugfox.dev/assets/icons/twitter-image.png" />
+        <meta name="twitter:label1" content="Written by" />
+        <meta name="twitter:data1" content="Plague Fox" />
+        <meta name="twitter:label2" content="Filed under" />
+        <meta name="twitter:data2" content="Dart, Flutter" />
+        <meta name="twitter:site" content="@plugfox" />
     {{else}}
         <title>{{block "title"}}</title>
         {{{block "description"}}}
     {{/is}}
+    <meta name="author" content="@plugfox">
+    <meta name="keywords" content="dart, flutter, fox, plague, plugfox, developer, software, engineer, cross-platform, android, ios, web, linux, windows, macos, fuchsia">
     {{> styles}}
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +47,10 @@
 <body class="{{body_class}}{{{block "body_class"}}}{{#match @custom.title_font "=" "Elegant serif"}} has-serif-title{{/match}}{{#match @custom.body_font "=" "Elegant serif"}} has-serif-body{{/match}}">
     <div class="site">
         {{> header}}
+
+        <!-- NOSCRIPT -->
+        <noscript class='noscript-center'>Your browser does not support JavaScript!</noscript>
+
         {{#is "home"}}
             {{> cover}}
         {{/is}}

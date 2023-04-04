@@ -7,13 +7,14 @@
                 <div class="single-media container medium{{#if og_description}} hidden-md hidden-lg hidden-xl{{/if}}">
                     {{> post-media ratio="square"}}
                 </div>
-                {{#if og_description}}
+                {{!-- {{#if og_description}}
                     <div class="container large">
                         {{> player}}
                     </div>
                 {{else}}
                     {{> post-header single=true}}
-                {{/if}}
+                {{/if}} --}}
+                {{> post-header single=true}}
                 <div class="post-content gh-content kg-canvas">
                     {{content}}
                 </div>

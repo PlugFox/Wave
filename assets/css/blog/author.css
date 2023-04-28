@@ -11,6 +11,14 @@
     text-transform: uppercase;
 }
 
+/* Fix isso comments */
+.isso-comment-header .author {
+    background-color: transparent !important;
+    display: contents !important;
+    border-radius: 16px !important;
+    padding: 16px !important;
+}
+
 .author {
     display: flex;
     padding: 30px;
